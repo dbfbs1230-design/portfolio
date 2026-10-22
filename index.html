@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4f0">
+  <meta name="description" content="Son YuRyun — exploring the relationship between body, garment and digital experience.">
+  <title>Son YuRyun — Portfolio</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script type="module" src="./js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#work" data-i18n="skip">Skip to work</a>
+  <header class="topbar">
+    <a class="wordmark" href="#home">SON YURYUN<span> / PORTFOLIO</span></a>
+    <nav id="navigation" class="topnav" aria-label="Main navigation">
+      <a href="#work" data-i18n="work">Selected Work</a>
+      <a href="#statement" data-i18n="statement">Statement</a>
+      <a href="#about" data-i18n="about">About</a>
+      <a href="#cv">CV</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang" type="button" id="language" aria-label="한국어로 보기">KO</button>
+      <button class="menu-toggle" type="button" id="menu" aria-controls="navigation" aria-expanded="false" aria-label="Open menu"><span aria-hidden="true">☰</span></button>
+    </div>
+  </header>
+  <main id="home">
+    <div class="wrap hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="location">Fashion · Digital Content · Ulsan, KR</p>
+        <h1><span>Perfect</span><span>Form,</span><span><em>Imperfect</em></span><span>Structure.</span></h1>
+        <p class="hero-sub"><span data-i18n="heroLine">Reframing the relationship</span><br><em data-i18n="heroEm">between body, garment & image.</em></p>
+        <p class="hero-note" data-i18n="heroNote">A practice moving between deconstructed fashion and digital experiences.</p>
+        <a class="outline-link" href="#work"><span data-i18n="explore">Explore selected work</span><b aria-hidden="true">↘</b></a>
+      </div>
+      <figure class="hero-figure">
+        <div class="hero-index" data-i18n="heroIndex">FORM STUDY / 001</div>
+        <div class="hero-art"><img src="./assets/images/hero.svg" width="760" height="920" fetchpriority="high" alt="Sculptural study of suspended fabric — illustrative placeholder" data-alt-i18n="heroAlt"><figcaption data-i18n="heroCaption">Fabric / body / space — visual placeholder</figcaption></div>
+      </figure>
+      <span class="scroll-mark" aria-hidden="true">Scroll to explore ↓</span>
+    </div>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>Deconstruction</span><i>✳</i><span>Asymmetry</span><i>✳</i><span>Body & Garment</span><i>✳</i><span>Digital Experience</span><i>✳</i><span>Deconstruction</span></div></div>
+    <section class="wrap" id="work" aria-labelledby="workHeading">
+      <div class="section-head"><h2 id="workHeading"><span data-i18n="work">Selected Work</span><sup id="workCount">(12)</sup></h2><p data-i18n="workIntro">A selection across garment, image and interactive media.</p></div>
+      <div class="filters" id="filters" role="group" aria-label="Project categories"></div>
+      <p class="collection-note" data-i18n="demoNote">Concept preview · All project titles and images below are illustrative examples.</p>
+      <p class="sr-only" id="resultsStatus" role="status" aria-live="polite" aria-atomic="true"></p>
+      <div class="projects" id="projects"></div>
+      <noscript><p>작업 목록과 언어 전환에는 JavaScript가 필요합니다. JavaScript를 활성화해 주세요. Enable JavaScript to browse the projects.</p></noscript>
+    </section>
+    <section class="statement" id="statement" aria-labelledby="statementHeading">
+      <div class="wrap">
+        <div class="section-head"><h2 id="statementHeading" data-i18n="statement">Statement</h2><p data-i18n="statementIntro">A point of view across body, garment and media.</p></div>
+        <div class="statement-content"><div class="statement-label" data-i18n="practice">My practice / 001</div><div>
+          <p class="statement-quote"><span data-i18n="quote">I question the order of clothing to reveal the beauty of the body in </span><em data-i18n="quoteEm">unexpected ways.</em></p>
+          <p class="statement-body" data-i18n="statementBody">My fashion practice begins with the human form. Through deconstruction, asymmetry and reconfigured function, I reshape how clothing surrounds the body. In digital content, I plan and create experiences across web, UX/UI, games, information, typography, moving image and AI-assisted exploration. I see both disciplines as ways to reorganize form and communication, creating new relationships between body, image and audience.</p>
+          <p class="statement-motto">Perfect Form,<br>Imperfect Structure.</p>
+        </div></div>
+      </div>
+    </section>
+    <section class="wrap" id="about" aria-labelledby="aboutHeading">
+      <div class="section-head"><h2 id="aboutHeading" data-i18n="aboutMe">About Me</h2><p data-i18n="occupation">Fashion designer / digital content maker</p></div>
+      <div class="about-grid"><p class="about-intro" data-i18n="aboutLead">I design between structure and its undoing.</p><div><p class="about-copy" data-i18n="aboutBody">I study Fashion and Digital Content Design at the University of Ulsan. My work moves between garments and digital media, guided by a curiosity about how form shapes the way we see and experience the body.</p><div class="disciplines"><span>Deconstructive fashion</span><span>Digital experience</span><span>Visual storytelling</span></div></div></div>
+    </section>
+    <section class="wrap cv" id="cv" aria-labelledby="cvHeading">
+      <div class="section-head"><h2 id="cvHeading">Profile<em> / </em>CV</h2><p data-i18n="cvIntro">Selected skills and experience</p></div>
+      <div class="cv-grid" id="profile"></div>
+    </section>
+    <section class="contact" id="contact" aria-labelledby="contactHeading"><div class="wrap contact-inner"><h2 id="contactHeading" data-i18n="connect">Let's connect.</h2><p data-i18n="contactNote">Contact details will be added here.</p></div></section>
+  </main>
+  <footer class="footer"><span>© <span id="year">2026</span> Son YuRyun</span><span>Fashion / Digital Content</span><a href="#home" data-i18n="top">Back to top ↑</a></footer>
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="detailTitle" aria-describedby="detailSummary">
+    <div class="dialog-toolbar"><span class="kicker" data-i18n="detailLabel">Project study</span><div class="dialog-actions"><button class="lang" type="button" id="detailLanguage" aria-label="한국어로 보기">KO</button><button type="button" class="close-button" id="closeDialog" aria-label="Close project" autofocus>×</button></div></div>
+    <div class="detail-content"><p id="detailMeta" class="kicker"></p><h2 id="detailTitle"></h2><p id="detailSummary" class="detail-summary"></p><p class="demo-disclosure" id="detailDemo" data-i18n="detailDemo">Illustrative project — not a completed work.</p><div class="detail-gallery" id="detailGallery"></div><div class="detail-description"><div><h3 data-i18n="role">Role</h3><p id="detailRole"></p></div><div><h3 data-i18n="process">Process</h3><p id="detailProcess"></p></div></div></div>
+    <div class="detail-navigation"><button type="button" class="text-button" id="previous"><span aria-hidden="true">← </span><span data-i18n="previous">Previous</span></button><span id="detailCount" class="kicker"></span><button type="button" class="text-button" id="next"><span data-i18n="next">Next</span><span aria-hidden="true"> →</span></button></div>
+  </dialog>
+</body>
+</html>
